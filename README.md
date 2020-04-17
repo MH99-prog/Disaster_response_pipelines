@@ -22,21 +22,21 @@ Our objective was to deploy model at the web application. So we can classify the
 # File Description
 The project mainly discusses [ETL Pipeline Preparation](ETL_Pipeline_Preparation.ipynb), [ML Pipeline Preparation](ML_Pipeline_Preparation.ipynb), and [Web application](run.py).
 
- ## * ETL Pipeline
+ ##  ETL Pipeline
 A Python script [process_data.py](process_data.py) can load and merge the [disaster_messages.csv](disaster_messages.csv) and [disaster_categories](disaster_categories.csv) datasets, then stores the data in a SQLite database [DisasterResponse.db](DisasterResponse.db), after cleaning.
   
 
  ## run below code to execute the ETL pipeline
 python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
   
- ## * ML Pipeline
+ ##  ML Pipeline
 
 A Python script [train_classifier.py](train_classfier.py) can load data from SQLite database. And it stores the final model [classifier.pkl](classifier.pkl), after training model.
   
  ## run below command in your terminal for building a model
  python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
  
- ## * Web Application
+ ##  Web Application
  A Python scrip [run.py](run.py) and [HTML templated](HTML templates) provide the flask web app. We can check the dataset visualization and query the messages classification result.
 
 ## commands to run app
