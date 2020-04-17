@@ -1,6 +1,6 @@
 
 
-# Installation
+# 1) Installation
 
 The project is supported by Python 3, preferred to directly install the Anaconda distribution. Below are a few libraries and packages to install:
 
@@ -11,7 +11,7 @@ The project is supported by Python 3, preferred to directly install the Anaconda
   * scikit-learn 0.20.0
   * sqlalchemy 1.2.12
   * nltk 3.3.0
-# Project Motivation
+# 2) Project Motivation
 
 In this project, I practiced skills of Data Engineering model to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages.
 
@@ -45,10 +45,10 @@ A Python script [train_classifier.py](train_classfier.py) can load data from SQL
 * http://0.0.0.0:3001/
 
 
-# Results
+# 3)Results
 Result includes data visualization and messages classification. The web application is being by going into run.py in the directory and clicking the http://0.0.0.0:3001/ in the web browser
 
-# Acknowledgement
+# 4) Acknowledgement
 
 Special thanks to organization **Figure Eight** and teaching platform **Udacity** for whole project. The pipelines are considered here for efficient code, fast and focusing on higher levels.
 
