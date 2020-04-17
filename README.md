@@ -1,8 +1,8 @@
 
 
-Installation
+# Installation
 
-The project is supported by Python 3.x (Hint: directly install the Anaconda distribution), libraries and packages:
+The project is supported by Python 3, preferred to directly install the Anaconda distribution. Below are a few libraries and packages to install:
 
     Numpy 1.15.2
     Pandas 0.23.4
