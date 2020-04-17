@@ -1,14 +1,13 @@
-# Disaster Response Pipeline Project
 
-### Instructions:
-1. Run the following commands in the project's root directory to set up your database and model.
 
-    - To run ETL pipeline that cleans data and stores in database
-        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
-    - To run ML pipeline that trains classifier and saves
-        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+Installation
 
-2. Run the following command in the app's directory to run your web app.
-    `python run.py`
+The project is supported by Python 3.x (Hint: directly install the Anaconda distribution), libraries and packages:
 
-3. Go to http://0.0.0.0:3001/
+    Numpy 1.15.2
+    Pandas 0.23.4
+    IPython 6.5.0
+    Matplotlib 3.0.0
+    scikit-learn 0.20.0
+    sqlalchemy 1.2.12
+    nltk 3.3.0
