@@ -20,5 +20,21 @@ Firstly, we targeted the ETL pipeline.Then store the data into the database. The
 Our objective was to deploy model at the web application. So we can classify the messages that were basically asked from the website or internet.
 
 # File Description
-* Directory contains [ETL Pipeline Preparation](ETL_Pipeline_Preparation.ipynb), [ML pipeline](ML_Pipeline_Preparation.ipynb), and [Web application](run.py).
+The project mainly discusses [ETL Pipeline Preparation](ETL_Pipeline_Preparation.ipynb), [ML Pipeline Preparation](ML_Pipeline_Preparation.ipynb), and [Web application](run.py).
 
+  * ETL Pipeline
+A Python script [process_data.py](process_data.py) can load and merge the [disaster_messages.csv](disaster_messages.csv) and [disaster_categories](disaster_categories.csv) datasets, then stores the data in a SQLite database [DisasterResponse.db](DisasterResponse.db), after cleaning.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
