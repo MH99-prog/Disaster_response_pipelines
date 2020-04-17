@@ -20,5 +20,5 @@ Firstly, we targeted the ETL pipeline.Then store the data into the database. The
 Our objective was to deploy model at the web application. So we can classify the messages that were basically asked from the website or internet.
 
 # File Description
-* Directory contains ETL pipelinehttps://github.com/Rackerthomas/Disaster_response_pipelines/blob/master/ML%20Pipeline%20Preparation.ipynb, ML pipeline, and Web application.
+* Directory contains [ETL pipelinehttps]://github.com/Rackerthomas/Disaster_response_pipelines/blob/master/ML%20Pipeline%20Preparation.ipynb, ML pipeline, and Web application.
 
